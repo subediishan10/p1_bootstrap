@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><strong>i</strong>Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+
+            <a class="nav-link" data-bs-toggle="offcanvas" href="./about.html" role="button"
+              aria-controls="offcanvasExample">About
+            </a>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                  Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images,
+                  lists, etc.
+                </div>
+                <div class="dropdown mt-3">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-bs-toggle="dropdown">
+                    Dropdown button
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Topics
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Web page designing</a></li>
+              <li><a class="dropdown-item" href="#">Gaming</a></li>
+              <li>
+                <a class="dropdown-item" href="#">App development</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="offcanvas" href="./contact.html" role="button"
+            aria-controls="offcanvasExample">Contact Us
+          </a>
+
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+              <div class="offcanvas-header">
+                <h5 id="offcanvasTopLabel">Contact me </h5>
+                <a type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></a>
+              </div>
+              <div class="offcanvas-body">
+                <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
+                  <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                      <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                      <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                          <h6 class="mb-0">List group item heading</h6>
+                          <p class="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+                        </div>
+                        <small class="opacity-50 text-nowrap">now</small>
+                      </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                      <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                      <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                          <h6 class="mb-0">Another title here</h6>
+                          <p class="mb-0 opacity-75">Some placeholder content in a paragraph that goes a little longer so it wraps to a new line.</p>
+                        </div>
+                        <small class="opacity-50 text-nowrap">3d</small>
+                      </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                      <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                      <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                          <h6 class="mb-0">Third heading</h6>
+                          <p class="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+                        </div>
+                        <small class="opacity-50 text-nowrap">1w</small>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="offcanvas" href="./project.html" role="button"
+            aria-controls="offcanvasExample">Projects
+          </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="offcanvas" href="./design.html" role="button"
+            aria-controls="offcanvasExample">Design
+          </a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <div class="container">
+              <button class="btn btn-outline-secondary" type="submit">
+                Search
+              </button>
+            </div>
+
+            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <p>
+                      Don't have an account click <a href="#" class="stretched-link">here </a>to register!
+                    </p>
+                    <button type="button" class="btn-close btn btn-danger" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="container">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label"><strong>Email address</strong></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                        <div id="emailHelp" class="form-text">
+                          We'll never share your email with anyone else.
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"><strong>Password</strong></label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" />
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary my-3">
+                        Submit
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+          </div>
+
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
+              login
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
+    <div class="list-group">
+      <a  class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+        <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+        <div class="d-flex gap-2 w-100 justify-content-between">
+          <div>
+            <h6 class="mb-0">Email</h6>
+            <p class="mb-0 opacity-75">subediishan10@gmail.com</p>
+          </div>
+       
+        </div>
+      </a>
+      <a  class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+        <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+        <div class="d-flex gap-2 w-100 justify-content-between">
+          <div>
+            <h6 class="mb-0">Phone Number</h6>
+            <p class="mb-0 opacity-75">9841798440</p>
+            <p class="mb-0 opacity-75">9823619929</p>
+          </div>
+        </div>
+      </a>    
+      <a  class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+        <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+        <div class="d-flex gap-2 w-100 justify-content-between">
+          <div>
+            <h6 class="mb-0">Phone Number</h6>
+            <p class="mb-0 opacity-75">9841798440</p>
+            <p class="mb-0 opacity-75">9823619929</p>
+          </div>
+        </div>
+      </a>    
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+</html>
